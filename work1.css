@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 10px;
+    color: #000;
+    width: 1440px;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+.wrap{
+    background: linear-gradient(to bottom ,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    color: #ffffff;
+    align-items: center;
+}
+.mark{
+    background-color:  hsl(0, 0%, 98%);
+    padding: 40px;
+    border: 5px solid #0000;
+    border-radius: 20px;
+    width: 100px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width:250px;
+    padding: 0.7em;
+}
+.circle{
+    background: linear-gradient(to bottom ,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-content: center;
+}
+.end{
+    background-color: hsl(224, 30%, 27%); 
+    color: white; 
+    width: 250px;
+    padding: 10px;
+    border-radius: 200px;
+
+}
+.end:active{
+    background: linear-gradient(to bottom ,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  }
